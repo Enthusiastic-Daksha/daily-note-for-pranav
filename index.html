@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Note for Pranav</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main class="container">
+        <header>
+            <h1>A daily note for Pranav</h1>
+            <p class="subtitle">
+                <span id="birthday-countdown"></span> days until your birthday!
+            </p>
+        </header>
+
+        <section id="content-box">
+            <!-- This is where the magic happens -->
+            <div id="message-display" class="hidden">
+                <h2 id="message-theme"></h2>
+                <p id="message-text"></p>
+            </div>
+
+            <div id="timer-display" class="hidden">
+                <p>Come back for your next message in:</p>
+                <div id="countdown-timer">00:00:00</div>
+            </div>
+
+            <div id="birthday-display" class="hidden">
+                <h2>Happy Birthday, Pranav!</h2>
+                <p>Wishing you the most wonderful day imaginable. All my love!</p>
+            </div>
+
+             <div id="loading-display">
+                <p>Getting your note ready...</p>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js" defer></script>
+</body>
+</html>

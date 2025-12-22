@@ -1,0 +1,92 @@
+/* --- Global Styles & Fonts --- */
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #ffdde1, #ee9ca7);
+    color: #444;
+    text-align: center;
+}
+
+.hidden {
+    display: none !important;
+}
+
+/* --- Main Container & Header --- */
+.container {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+}
+
+header h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 3rem;
+    color: #c44d5a;
+    margin-bottom: 0;
+}
+
+header .subtitle {
+    font-size: 1.1rem;
+    color: #a05a63;
+    margin-top: 5px;
+}
+
+/* --- Content Box --- */
+#content-box {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 15px;
+    padding: 30px 40px;
+    margin-top: 20px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* --- Message & Timer Displays --- */
+#message-display h2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.2rem;
+    color: #d15a67;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+#message-display p,
+#birthday-display p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #5c3b41;
+}
+
+#timer-display p {
+    font-size: 1.1rem;
+    color: #5c3b41;
+}
+
+#countdown-timer {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #c44d5a;
+    margin-top: 10px;
+    letter-spacing: 2px;
+}
+
+#birthday-display h2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 3rem;
+    color: #c44d5a;
+}
+
+#loading-display p {
+    font-size: 1.2rem;
+    color: #a05a63;
+}
