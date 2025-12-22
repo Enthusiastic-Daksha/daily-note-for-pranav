@@ -79,7 +79,6 @@ document.addEventListener('DOMContentLoaded', () => {
         countdownTimer.textContent = `${hours}:${minutes}:${seconds}`;
     }
 
-_RUN_WAIT_ = 2500
     function init() {
         hideAllDisplays();
 
